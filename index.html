@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    
+      <nav class="navbar">
+        <div class="logo">
+          <img src="logo.png" alt="">
+        </div>
+        <ul class="nav-items">
+          <li  class="list-items"><a href="#">Home</a></li>
+          <li class="list-items"><a href="#">Product</a></li>
+          <li class="list-items"><a href="#">Faq</a></li>
+          <li class="list-items"><a href="#">Contact</a></li>
+        </ul>
+        <div class="menu">
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+        </div>
+      </nav>
+      <div class="desktop-hero">
+          <div class="banner">
+            <h3>Food app</h3>
+            <h1>Why stay hungry when you can order from Bella Onojie</h1>
+            <h4>Download the bella onoje’s food app now on</h4>
+            <div class="banner-btns">
+              <button class="banner-btn banner-btn1">Play Sotor</button>
+              <button class="banner-btn banner-btn2">Play Sotor</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="middle">
+        <img src="middle.png" alt="">
+      </div>
+     
+      <hr> 
+      
+    <h2>How the app works</h2>
+   
+      <div class="info">
+        <img src="info1.png" alt="info">
+        <div class="info-text">
+          <h3>Create an Account</h3>
+          <h2>Create/login to an existing account to get started</h2>
+          <h4>An account is created with your email and a desired password </h4>
+        </div>
+      </div>
+      <div class="info">
+        
+        <div class="info-text info-text-reverse">
+          <h3>Create an Account</h3>
+          <h2>Create/login to an existing account to get started</h2>
+          <h4>An account is created with your email and a desired password </h4>
+        </div>
+        <img src="info1.png" alt="info">
+      </div>
+      <div class="info">
+        <img src="info1.png" alt="info">
+        <div class="info-text">
+          <h3>Create an Account</h3>
+          <h2>Create/login to an existing account to get started</h2>
+          <h4>An account is created with your email and a desired password </h4>
+        </div>
+      </div>
+    
+    
+    
+   
+    <div class="lower-banner">
+      <h2>Download the app now</h2>
+      <h4>Available on your favorite store. Start your premium experience now</h4>
+      <div class="lower-banner-btns">
+        <button class="banner-btn1">Play Sotor</button>
+        <button class="banner-btn2">Play Sotor</button>
+      </div>
+    </div> 
+ <div class="footer">
+  <img src="logo.png" class="lower-logo" alt="logo">
+  <div class="icons">
+    <img src="twitter.png" alt="">
+    <img src="meta.png" alt="">
+    <img src="insta.png" alt="">
+  </div>
+  <p>Copywright 2020 Bella Onojie.com</p>
+ </div>
+  </body>
+  <script>
+    const toggleButton=document.querySelector(".menu");
+    const navlist=document.querySelector(".nav-items");
+    toggleButton.addEventListener('click',()=>{
+      navlist.classList.toggle('active');
+    })
+  </script>
+</html>

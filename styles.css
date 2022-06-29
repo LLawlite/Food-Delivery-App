@@ -1,0 +1,513 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    align-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.list-items a {
+    padding: 0 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.navbar img {
+    width: 206px;
+    cursor: pointer;
+}
+
+.list-items {
+    display: inline-block;
+    padding: 20px 10px;
+    cursor: pointer;
+
+}
+
+.list-items a {
+    text-decoration: none;
+    color: #252B42;
+}
+
+.menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: rgb(1, 1, 1);
+    margin-bottom: 4px;
+}
+
+.menu {
+    display: none;
+    cursor: pointer;
+}
+
+.banner {
+    height: 619px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image: url(banner.png);
+
+
+}
+
+.banner>* {
+    text-align: center;
+    margin: 10px;
+}
+
+
+.banner h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #F7F7F7;
+}
+
+.banner h1 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    color: #F7F7F7;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+}
+
+.banner h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    color: #F7F7F7;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.banner-btn1 {
+    width: 236px;
+    height: 68px;
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    cursor: pointer;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin-right: 10px;
+
+
+}
+
+.banner-btn2 {
+    width: 236px;
+    height: 68px;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 10px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+
+
+}
+
+.middle {
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.middle img {
+    position: absolute;
+    top: -34%;
+}
+
+
+hr {
+    margin-top: 10px;
+    max-width: 884px;
+    border: 3px solid #E4E4E4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+h2 {
+
+    display: grid;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    opacity: 0.8;
+
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.info img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-text {
+    align-self: center;
+    justify-self: start;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.info-text>* {
+    margin: 15px;
+    justify-self: end;
+}
+
+.info-text h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+
+    color: #FA4A0C;
+
+}
+
+.info-text h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.info-text h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.info-text-reverse {
+
+    align-self: center;
+    justify-self: end;
+
+
+
+}
+
+.info-text-reverse>* {
+    margin: 15px;
+}
+
+.lower-banner {
+    display: flex;
+    flex-direction: column;
+    height: 516px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url(lower-banner.png);
+}
+
+
+.lower-banner-btns {
+    justify-self: center;
+    margin-top: 10px;
+}
+
+.lower-banner h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+
+.lower-banner h4 {
+    align-self: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.info-items {
+    border: 10px solid rgb(212, 18, 18);
+    display: grid;
+
+
+
+}
+
+.lower-logo {
+    width: 206px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons>* {
+    cursor: pointer;
+}
+
+@media (max-width:1050px) {
+    .info img {
+        width: 450px;
+    }
+}
+
+@media (max-width:765px) {
+    .navbar {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+        right: 28px;
+        top: 48px;
+    }
+
+    .logo {
+
+        margin-left: -60px;
+        width: 100%;
+
+    }
+
+    .nav-items {
+
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        display: none;
+
+    }
+
+    .list-items {
+        display: block;
+        border-top: 1px solid #E4E4E4;
+
+    }
+
+    .active {
+        display: block;
+    }
+
+    .info {
+        grid-template-columns: 1fr;
+        margin: 0;
+
+    }
+
+    .info img {
+        width: 400px;
+    }
+
+    .info-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-self: center;
+
+    }
+
+    .info-text h3,
+    h2,
+    h4 {
+        text-align: center;
+        /* padding-right: 20px; */
+    }
+
+    .info-text-reverse {
+        order: 1;
+    }
+
+    .middle img {
+        width: 437px;
+        top: -32%;
+    }
+
+    .middle {
+        min-height: 457px;
+    }
+    
+    .lower-logo {
+        display: none;
+
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 30px;
+        gap: 20px;
+    }
+
+    .lower-banner {
+        background-image: none;
+        background-color: #252B42;
+    }
+
+
+}
+
+@media (max-width:580px) {
+
+
+    .logo {
+        margin-left: -116px;
+    }
+
+    .banner-btns {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        cursor: pointer;
+
+    }
+
+    .lower-banner-btns {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        cursor: pointer;
+
+    }
+
+    .banner {
+        background-image: none;
+        max-height: 440px;
+    }
+
+    .banner h3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #737373;
+
+    }
+
+    .banner h1 {
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        color: #252B42;
+    }
+
+    .banner h4 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        color: #737373;
+    }
+
+    .middle {
+        min-height: 300px;
+    }
+
+    .middle img {
+        width: 330px;
+        top: -18%;
+        margin-right: 30px;
+
+    }
+
+    .info-text {
+        padding-right: 65px;
+    }
+
+    hr {
+        margin-top: 78px;
+    }
+
+    .banner-btn2 {
+        color: #000000;
+    }
+
+}
