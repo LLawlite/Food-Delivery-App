@@ -98,6 +98,7 @@
     color: #F7F7F7;
     text-align: center;
     letter-spacing: 0.2px;
+    max-width: 1000px;
 
 }
 
@@ -143,7 +144,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    margin-left: 10px;
+
     letter-spacing: 0.1px;
     color: #FFFFFF;
 
@@ -169,7 +170,8 @@ hr {
     border: 3px solid #E4E4E4;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
+    margin-top: 20px;
 }
 
 h2 {
@@ -191,13 +193,17 @@ h2 {
 
 .info {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(400px, 1fr) minmax(400px, 1fr);
     justify-items: center;
+    display: 10px solid red;
 }
 
 .info img {
     margin-left: auto;
     margin-right: auto;
+    /* border: 10px solid black; */
+
+
 }
 
 .info-text {
@@ -265,6 +271,7 @@ h2 {
     align-items: center;
     justify-content: center;
     background-image: url(images/lower-banner.png);
+    padding: 10px;
 }
 
 
@@ -296,6 +303,7 @@ h2 {
     text-align: center;
     letter-spacing: 0.2px;
     color: #FFFFFF;
+    margin-bottom: 10px;
 }
 
 .info-items {
@@ -326,10 +334,36 @@ h2 {
     cursor: pointer;
 }
 
+@media (min-width:765px) {
+    .info {
+        max-height: 560px;
+    }
+
+
+}
+
+
+@media (min-width:1050px) {
+    .info {
+        max-height: 668px;
+    }
+
+    .lower-banner {
+        margin-top: 80px;
+    }
+}
+
+
+
 @media (max-width:1050px) {
     .info img {
-        width: 450px;
+        max-width: 450px;
     }
+
+    .lower-banner {
+        margin-top: 0;
+    }
+
 }
 
 @media (max-width:765px) {
@@ -344,6 +378,8 @@ h2 {
         right: 28px;
         top: 48px;
     }
+
+
 
     .logo {
 
@@ -373,6 +409,7 @@ h2 {
 
     .info {
         grid-template-columns: 1fr;
+
         margin: 0;
 
     }
@@ -410,7 +447,7 @@ h2 {
     .middle {
         min-height: 457px;
     }
-    
+
     .lower-logo {
         display: none;
 
@@ -425,6 +462,11 @@ h2 {
     .lower-banner {
         background-image: none;
         background-color: #252B42;
+    }
+
+    .info img {
+        object-fit: cover;
+        max-width: 100%;
     }
 
 
@@ -499,7 +541,7 @@ h2 {
     }
 
     .info-text {
-        padding-right: 65px;
+        /* padding-right: 65px; */
     }
 
     hr {
